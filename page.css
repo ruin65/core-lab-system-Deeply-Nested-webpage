@@ -1,0 +1,202 @@
+.text {
+    list-style-type: none;
+    align-items: center; /* 垂直居中对齐标签 */
+    padding-left: 60px; /* 调整导航栏的内边距 */
+    padding-right: 60px; /* 调整导航栏的内边距 */
+    padding-top: 40px;
+    margin-top: -5%;
+    position: absolute;
+    left: 0%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.img2-1{
+    display: block;
+    margin-top:50%;
+    margin-left: -50%;
+    width: 50%;
+}
+
+.img2-2{
+    display: block;
+    margin-top:-30%;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 48%;
+}
+
+
+.img3-1{
+    display: block;
+    margin-top:45%;
+    margin-left: 8%;
+}
+
+.img3-2{
+    display: block;
+    margin-top:-30%;
+    margin-left: 53%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.img3-3{
+width: 95%;
+height: auto;
+margin-left: 3%;
+}
+
+.img4-1{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-top:35%;
+    margin-left: 19%;
+}
+
+.img4-2{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-top:-12%;
+    margin-left: 43%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.img4-3{
+    width: 20%;
+    height: auto;
+   position: absolute;
+   top: 260%;
+   left: 19%;
+}
+
+
+
+/* 居中内容 */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* 统一标题的样式 */
+.article-title, .article-title-2, .article-title-3, .article-title-4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 隐藏内容 */
+.article-content, .article-content-2, .article-content-3, .article-content-4 {
+    display: none;
+}
+
+#materialsText, #productionText {
+    display: none;
+}
+
+
+
+/* 全局样式 */
+body {
+    background-color: #f4f4f4; /* 背景颜色 */
+    font-family: Arial, sans-serif; /* 字体 */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* 水平居中 */
+    max-width: 800px; /* 控制内容宽度 */
+    padding: 20px; /* 内边距 */
+    background-color: #fff; /* 背景颜色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+/* 统一标题的样式 */
+.article-title, .article-title-2, .article-title-3, .article-title-4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px; /* 上边距 */
+}
+/*page2*/
+#materialsText, #productionText {
+    text-align: center; /* 水平居中对齐文本 */
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #333;
+    display: none;
+    max-width: 700px; /* 控制内容宽度 */
+    padding-left: 380px; /* 内边距 */
+    
+}
+
+/* 内容样式 */
+.article-content, .article-content-2, .article-content-3, .article-content-4 {
+    display: none;
+    margin-top: 10px; /* 上边距 */
+    color: #333; /* 文本颜色 */
+}
+
+
+
+
+/* 图片样式 */
+.img1 {
+    display: block;
+    margin: 20px auto; /* 图片居中 */
+    max-width: 100%; /* 图片宽度 */
+}
+
+/* Footer 样式 */
+footer {
+    background-color: #333; /* 背景颜色 */
+    color: #fff; /* 文本颜色 */
+    padding: 10px;
+    text-align: center;
+}
+
+/* 链接样式 */
+.author-email {
+    color: #fff; /* 链接文本颜色 */
+    text-decoration: none;
+}
+
+.author-email:hover {
+    text-decoration: underline; /* 悬停时添加下划线 */
+}
+
+
+
+
+
+
+
+/* page3-link */
+.link{
+    position:absolute;
+    top: 14%;
+    left: 30%;
+}
+
+
+#imageContainer-types {
+    position: relative;
+}
+
+#imageContainer-types img {
+    position: absolute;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6 {
+    top: 150px;
+    left: 530px;
+}
+

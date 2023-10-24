@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.js"></script>
+    <script src="sketch.js"></script>
+
+
+    <title>Crocs</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            background-color: white;
+        }
+        .top-menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            font-weight: bolder;
+        }
+        .link {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            animation: blink 1s infinite alternate; /* 添加闪烁特效 */
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <a class="link" href="page1.html">INVENTION</a>
+        <a class="link" href="page2.html">PRODUCE</a>
+        <a class="link" href="page3.html">PRODUCTS</a>
+        <a class="link" href="page4.html">FASHION</a>
+    </div>
+    <img src="crocs.png" alt="crocs" id="1" class="crocs-image">
+
+</body>
+
+
+</html>

@@ -1,0 +1,13 @@
+html, body {
+    overflow: hidden;
+}
+
+
+.crocs-image{
+position: absolute;
+top: 30%;
+left: 10%;
+max-width: 80%;
+height: auto;
+}
+
